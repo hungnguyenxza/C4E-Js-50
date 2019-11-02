@@ -51,4 +51,35 @@
 // 2. Nhập mk ít nhất 8 ký tự, chứa
 // ký tự đặc biệt . @ #
 
+// let matKhau = prompt('Mời nhập mk:');
 
+// while (matKhau.length < 8) {
+//     matKhau = prompt('mk chưa đủ 8 kí tự, xin mời bạn nhập lại:');
+// }
+// while (matKhau.indexOf('@') === -1 || matKhau.includes('#') === false) {
+//     matKhau = prompt('mk của bạn thiếu đồng thời các kí tự đặc biệt, mời bạn nhập lại:')
+// }
+
+// console.log(matKhau);
+
+// for (let i = 0; i < 100; i++) {
+//     if(i % 2 === 1){ // số lẻ
+//         break;
+//     }
+//     console.log(i);
+// }
+
+// kiểm tra 1 số là số nguyên tố.
+let N = parseInt(prompt("Nhập 1 số"));
+let isSNT = true;
+for (let i = 2; i < N; i++) {
+    if(N % i === 0){
+        isSNT = false;
+        break;
+    }
+}
+if(isSNT){
+    console.log(`${N} là số nguyên tố`);
+}else{
+    console.log(`${N} không là số nguyên tố`);
+}

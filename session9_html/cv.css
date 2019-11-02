@@ -1,0 +1,50 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+  width: 21cm; /* chiều rộng */
+  height: 29.7cm; /* chiều cao */
+  margin: auto; /* đặt vào giữa */
+}
+.main-content{
+  width: calc(40% - 1px);
+  height: 100%;
+  float: left;
+  background-color:#178dc7;
+  color: #fff;
+}
+.sub-content{
+  width: 60%;
+  height: 100%;
+  float: right;
+}
+.avatar-container{
+  height: 30%;
+  text-align: center;
+}
+.avatar{
+  width:65%;
+  border-radius: 45px 0 45px 0;
+}
+.avatar-content{
+  text-align: center;
+  padding: 35px 10px;
+  height: 45%;
+}
+.main-info{
+  height: calc(70% - 1px);
+  display: flex;
+  flex-direction: column;
+}
+.main-info .info{
+  flex:1;
+}
+.border-draf{
+  border: 1px solid black;
+}
+.border-right-draf{
+  border-right: 1px solid black;
+}
+.border-bottom-draf{
+  border-bottom: 1px solid black;
+}

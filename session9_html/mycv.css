@@ -1,0 +1,112 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  background-color: #eaeaea;
+}
+.container{
+  width: 550px;
+  margin:auto;
+  box-shadow: 5px 10px 18px #888888;
+  height: 700px;
+  background-color: #fff;
+}
+
+.avatar-container{
+  height: 200px;
+  padding: 10px 20px;
+}
+
+.avatar-container .avatar{
+  background-image: url('avatar.JPG');
+  background-size: cover;
+  width: 200px;
+  height: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: auto;
+  border: 1px solid #d3d3d3;
+}
+
+.info-container{
+  height: 500px;
+  padding:20px 30px;
+}
+.info-title{
+  text-align: center;
+  color: #479099;
+
+}
+.info-title .title{
+  font-size:x-large;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.info-title .job-title{
+  font-size: large;
+}
+.info-content{
+  padding:20px 0;
+}
+.info-block{
+  margin-bottom: 10px;
+}
+.info-category{
+  font-size: larger;
+  padding: 5px 10px;
+  border-bottom: 1.5px solid #479099;
+  margin-bottom: 10px;
+  color: #479099;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: normal;
+}
+.info-detail{
+  font-size: medium;
+}
+.fas{
+  font-size: larger;
+}
+.info-detail ul{
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+}
+.info-detail ul li{
+  padding: 5px 0;
+}
+.info-detail ul li span{
+  padding-left: 10px;
+  font-size: large;
+}
+.my-skill .info-detail{
+  width: 80%;
+  margin: auto;
+}
+.my-skill .info-detail .skill{
+  display: flex;
+  line-height: 50px;
+  text-align: center;
+}
+.my-skill .info-detail .skill div{
+  flex: 1;
+  color:#fff;
+}
+.my-skill .info-detail .skill span{
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 5px;
+  font-family: monospace;
+}
+.my-skill .info-detail .skill div:nth-child(1){
+  border-radius:10px 0 0 10px;
+  background-color: #d3523b;
+}
+.my-skill .info-detail .skill div:nth-child(2){
+  background-color: #ffca21;
+}
+.my-skill .info-detail .skill div:nth-child(3){
+  background-color: #4ca3e3;
+  border-radius:0 10px 10px 0;
+}
+
